@@ -1,0 +1,48 @@
+# Predictive Analytics for E-commerce Platform
+
+## Overview
+This repository contains the code and resources for a predictive analytics project aimed at improving product reorder behavior prediction for a leading e-commerce platform. The project involved data cleaning, extensive feature engineering, and the implementation of machine learning models.
+
+## Project Highlights
+- Developed and implemented machine learning models to predict product reorder behavior.
+- Achieved a significant increase in model accuracy through extensive feature engineering and fine-tuning.
+- Handled class imbalance using the Synthetic Minority Over-sampling Technique (SMOTE) to improve model robustness.
+- Collaborated on hyperparameter tuning using GridSearchCV to select the best-performing models.
+- Evaluated model performance using various metrics, including accuracy, precision, recall, F1 Score, and ROC-AUC.
+
+## Data
+The project uses the InstaCart Online Grocery Basket Analysis Dataset, including CSV files such as aisles, departments, order_products_prior, order_products_train, orders, and products.
+
+## Key Files
+- `predective analytics.ipynb`: Jupyter Notebook containing the Python code for data preprocessing, feature engineering, model training, and evaluation.
+- `data/`: Directory containing the CSV data files used in the project.
+- `requirements.txt`: List of Python packages and dependencies required to run the code.
+
+## Usage
+1. Clone the repository to your local machine.
+2. Install the required packages using `pip install -r requirements.txt`.
+3. Open and run the `predictive anlaytics.ipynb` Jupyter Notebook to replicate the project.
+
+## Results
+### XGBoost Metrics
+- Accuracy: 70.94%
+- Precision: 0.78
+- Recall: 0.72
+- F1 Score: 0.75
+- ROC-AUC Score: 0.71
+
+### Random Forest Metrics
+- Accuracy: 71.70%
+- Precision: 0.78
+- Recall: 0.74
+- F1 Score: 0.76
+- ROC-AUC Score: 0.71
+
+## Skills and Tools
+- Python
+- pandas, numpy
+- scikit-learn
+- xgboost
+- imbalanced-learn
+
+
